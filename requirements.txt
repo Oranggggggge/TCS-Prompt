@@ -1,0 +1,13 @@
+# Python 3.9 or 3.10
+torch==1.13.1
+torchvision==0.14.1
+numpy>=1.20.3,<1.23
+Pillow>=9.4.0,<12
+ftfy==6.1.1
+regex==2021.10.23
+tqdm>=4.64,<5
+packaging>=21,<26
+jupyterlab>=4,<5
+
+# Official OpenAI CLIP provides clip.clip and clip.simple_tokenizer.
+git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
